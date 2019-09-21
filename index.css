@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background: #f8f8f8;
+	font-family: 'Roboto', sans-serif;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 2em;
+	background: #fff;
+}
+
+.fa-bars {
+	margin-right: 2em;
+}
+.fa-youtube {
+	color: red;
+	font-size: 1.4em;
+}
+
+.logo {
+	font-weight: bold;
+	letter-spacing: -1px;
+	font-size: 1.2em;
+}
+
+.nav-search {
+	width: 600px;
+	padding: 0.3em 0.5em;
+	outline: none;
+	border-radius: 3px 0 0 3px;
+	border: 1px solid rgba(44, 44, 44, 0.2);
+	display: flex;
+}
+
+.nav-search input {
+	border: none;
+	outline: none;
+	box-shadow: none;
+	font-size: 1.1em;
+	width: 100%;
+	flex: 1;
+}
+
+.nav-form {
+	display: flex;
+}
+
+.nav-form button {
+	flex-basis: 10%;
+	border: 1px solid #d3d3d3;
+	border-radius: 0 2px 2px 0;
+	background-color: #f8f8f8;
+	color: #c6c6c6;
+	cursor: pointer;
+}
+
+.nav-icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 250px;
+}
+
+.masthead {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: purple;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 0.3em;
+}
+
+
+/*  Main conten section */
+.main-content {
+	background: #000;
+	display: flex;
+	flex-direction: column;
+}
