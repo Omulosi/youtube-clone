@@ -8,6 +8,15 @@ body {
 	background: #f8f8f8;
 	font-family: 'Roboto', sans-serif;
 }
+
+h3 {
+	font-size: 0.9em;
+}
+
+h4 {
+	font-size: 0.8em;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -82,7 +91,288 @@ body {
 
 /*  Main conten section */
 .main-content {
-	background: #000;
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+
+.main-video-content {
+	width: 60%;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+.main-video {
+	width: 100%;
+	height: 370px;
+}
+
+.main-video-info {
+	padding-bottom: 1em;
+	border-bottom: 1px solid rgba(195,195,195,0.6);
+}
+
+.main-video-info p {
+	margin-top: 1em;
+	font-size: 1.2em;
+}
+
+.main-video-buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgba(0,0,0,0.6);
+	margin-top: 1em;
+	font-size: 0.9em;
+}
+
+.main-video-buttons span {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+.main-video-buttons i {
+	margin-right: 0.5em;
+}
+
+.main-video-buttons div {
+	cursor: pointer;
+}
+
+span.circle {
+	height: 5px;
+	width: 5px;
+	background: rgba(0,0,0,0.6);
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.view-date-info {
+	display: flex;
+
+}
+
+.subscribe {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	display: flex;
+	border-bottom: 1px solid rgba(195,195,195,0.6);
+}
+
+.owner-photo {
+	width: 12%;
+	margin-right: 3%;
+}
+
+.owner-photo img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.owner-info {
+	width: 85%;
+}
+
+.owner-info > p {
+	font-size: 0.9em;
+	padding-top: 2em;
+}
+
+.owner-header > div > p {
+	font-size: 0.8em;
+	color: rgba(0,0,0,0.6);
+}
+
+.owner-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	padding: 0;
+	margin: 0;
+}
+
+.btn {
+	background: #cc0000;
+	color: white;
+	border-radius: 2px;
+	text-transform: uppercase;
+	border: 1px solid red;
+	padding: 0.5em 1em;
+	display: inline-block;
+}
+
+
+.comments {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.title > div:nth-child(1) {
+	margin-right: 3em;
+}
+
+.title > div:nth-child(2) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.title > div:nth-child(2) > span {
+	text-transform: uppercase;
+	color: rgba(44,44,44, 0.7);
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+.comment-input {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 2em;
+}
+
+.comment-input i {
+	color: #f8f8f8;
+	background: purple;
+	font-size: 2em;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.5em;
+	margin-right: 0.6em;
+}
+
+.comment-input-form {
+	flex: 1;
+}
+
+.comment-input-form input {
+	background: #f8f8f8;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	width: 100%;
+	padding-bottom: 0.5em;
+	font-size: 0.95em;
+}
+
+.commenter-photo {
+	width: 40px;
+	height: 40px;
+}
+
+.commenter-photo img {
+	border-radius: 50%;
+	width: 100%;
+}
+
+.comments-content {
+	margin-top: 2em;
+}
+
+.comment-card {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 2em;
+}
+
+.commenter-info {
+	flex: 1;
+}
+
+.comment-date {
+	color: #606060;
+	font-weight: normal;
+}
+
+.commenter-photo {
+	margin-right: 1em;
+}
+
+.commenter-info > p {
+	margin-top: 0.7em;
+	font-size: 0.9em;
+}
+
+.comment-footer {
+	margin-top: 0.9em;
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #808080;
+	font-size: 0.95em;
+}
+
+.comment-footer span:last-of-type {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+.aside {
+	width: 40%;
+	min-height: 100vh;
+	/*background: #d3d3d3;*/
+}
+
+.aside-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.toggle {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.toggle > span {
+	text-transform: uppercase;
+	margin-right: 0.6em;
+}
+
+.toggle > i {
+	color: blue;
+	font-size: 1.8em;
+	margin-right: 0;
+}
+
+.thumbnail {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 1em;
+}
+
+.thumbnail-info {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+.thumbnail-info > p {
+	font-weight: lighter;
+	font-size: 0.9em;
+	margin-top: 0.5em;
+	color: rgba(0,0,0, 0.6);
+}
+
+.thumbnail-info > span {
+	font-weight: lighter;
+	font-size: 0.8em;
+	color: rgba(0,0,0, 0.6);
 }
